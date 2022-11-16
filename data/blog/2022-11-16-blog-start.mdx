@@ -1,0 +1,34 @@
+---
+title: 'Start Blog'
+date: 2022-11-16T19:00:00Z
+lastmod: '2022-11-16'
+tags: ['blog']
+draft: false
+summary: 'Start of blog'
+layout: PostSimple
+bibliography: references-data.bib
+canonicalUrl: https://cce199.vercel.app/blog/
+---
+
+2022-11-16 I start blog
+
+git 설정
+
+https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
+
+https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer
+
+.ssh/config설정 후
+
+```
+Host github.com
+  User cujung
+  IdentityFile ~/.ssh/id_ed25519
+
+Host github.com-personal
+  HostName github.com
+  User cce199
+  IdentityFile ~/.ssh/id_ed25519p
+```
+
+git remote set-url origin git@github.com-personal:cce199/cce199repo.git
